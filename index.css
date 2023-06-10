@@ -1,0 +1,64 @@
+body{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+#ll{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5rem;
+    margin: 5%;
+    color: wheat;
+}
+.container{
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+.btn {
+    margin: 25px;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    border-radius: 20%;
+  width: 100px;
+  height: 100px;
+  animation-iteration-count: infinite;
+  
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+}
+
+@keyframes example {
+  0%   { left:0px; top:0px;}
+  25%  { left:200px; top:0px;}
+
+}
+  
+  .game-over {
+    background-color: rgb(194, 126, 19);
+    opacity: 0.8;
+  }
+  
+  .red {
+    background-color: red;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
+  .blue {
+    background-color: blue;
+  }
+  
+  .yellow {
+    background-color: yellow;
+  }
+  .pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+  }
+  
